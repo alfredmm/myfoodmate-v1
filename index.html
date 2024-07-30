@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="index-page">
+    <header>
+        <h1>Our Products</h1>
+        <button id="view-cart">View My Cart</button>
+    </header>
+    <!--
+    <div class="prod-class">
+        <div class="product">
+            <img src="assets/images/chicken.PNG">
+            <h2>Chicken Slice</h2>
+            <p>Taste for all moments</p>
+            <button class="add-to-cart" 
+                    data-id="1" 
+                    data-name="Product 1" 
+                    data-price="19.99">
+                Add to Cart
+            </button>
+        </div>
+        <div class="product">
+            <img src="assets/images/wings.PNG">
+            <h2>Winglings</h2>
+            <p>Taste for all moments</p>
+            <button class="add-to-cart" 
+                    data-id="2" 
+                    data-name="Product 2" 
+                    data-price="24.99">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+-->
+    <div class="product-container">
+        <div class="product-row">
+            <div class="product">
+                <img src="assets/images/chicken.PNG" alt="Chicken Stylins">
+                <h2>Chicken Stylins</h2>
+                <p>Feel the super taste in the soup</p>
+                <button class="add-to-cart" data-id="1" data-name="Chicken Stylins" data-price="1099">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/images/wings.PNG" alt="Winglings" style="width: max-content;">
+                <h2>Winglings</h2>
+                <p>Delicacy from the Features</p>
+                <button class="add-to-cart" data-id="2" data-name="Winglings" data-price="1259">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/images/African Plate.PNG" alt="African Plate">
+                <h2>African Plate</h2>
+                <p>African in your Memories</p>
+                <button class="add-to-cart" data-id="3" data-name="Africa Plate" data-price="3279">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/images/burger small.PNG" alt="Burger">
+                <h2>Burger Liost</h2>
+                <p>Delicacy for everyone</p>
+                <button class="add-to-cart" data-id="4" data-name="Burger liost" data-price="1429">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/images/Cheese Pizza.PNG" alt="Cheese Lones">
+                <h2>Cheese Lones</h2>
+                <p>Good for your Memories</p>
+                <button class="add-to-cart" data-id="5" data-name="Cheese Lones" data-price="2364">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/images/mellon.PNG" alt="Mellon">
+                <h2>Mellon Fruite Slice</h2>
+                <p>Boosst your Vitamins</p>
+                <button class="add-to-cart" data-id="6" data-name="Mellon Fruit Slice" data-price="109">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-row">
+            <div class="product">
+                <img src="assets/images/chicken.PNG" alt="Chicken Stylins">
+                <h2>Chicken Stylins</h2>
+                <p>Feel the super taste in the soup</p>
+                <button class="add-to-cart" data-id="7" data-name="Chicken Stylins" data-price="19.99">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/images/wings.PNG" alt="Winglings" style="width: max-content;">
+                <h2>Winglings</h2>
+                <p>Delicacy from the Features</p>
+                <button class="add-to-cart" data-id="8" data-name="Winglings" data-price="12.59">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/images/chicken.PNG" alt="Chicken Muskli">
+                <h2>Chicken Muskli</h2>
+                <p>Good for your Memories</p>
+                <button class="add-to-cart" data-id="9" data-name="Chicken Muskli" data-price="39.79">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/images/wings.PNG" alt="Winglings">
+                <h2>Winglings</h2>
+                <p>Delicacy from the Features</p>
+                <button class="add-to-cart" data-id="10" data-name="Winglings" data-price="12.59">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/images/chicken.PNG" alt="Chicken Muskli">
+                <h2>Chicken Muskli</h2>
+                <p>Good for your Memories</p>
+                <button class="add-to-cart" data-id="11" data-name="Chicken Muskli" data-price="39.79">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="assets/images/chicken.PNG" alt="Chicken Muskli">
+                <h2>Chicken Muskli</h2>
+                <p>Good for your Memories</p>
+                <button class="add-to-cart" data-id="12" data-name="Chicken Muskli" data-price="39.79">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+      
+      
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <div id="cart-total"></div>
+            <button id="paypal-button">Pay with PayPal</button>
+            <button id="reset-cart">Reset Cart</button> </div>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
