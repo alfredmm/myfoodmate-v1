@@ -1,2 +1,2 @@
-# landing-page-food-delivery-app
-landing page for food delivery app - HTML - CSS - JS
+# Food Delivery Web App
+Order, and Get it Delivered
